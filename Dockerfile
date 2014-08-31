@@ -5,10 +5,10 @@ FROM  ubuntu:14.04
 MAINTAINER akyshr "akyshr@gmail.com"
 
 # Set the env variable DEBIAN_FRONTEND to noninteractive
-ENV DEBIAN_FRONTEND noninteractive
+#ENV DEBIAN_FRONTEND noninteractive
 
 # make sure the package repository is up to date
-RUN apt-get update
+#RUN apt-get update
 
 # install sshd
 #RUN apt-get install -y openssh-server
